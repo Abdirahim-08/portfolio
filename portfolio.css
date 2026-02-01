@@ -14,7 +14,7 @@ html {
   font-size: 62.5%;
 }
 
-.center {
+.center{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -240,13 +240,13 @@ html {
 
 }
 
-.projects-wrapper {
+.project-wrapper{
   width: 80%;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   
  }
 
-.project {
+.project{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -259,11 +259,11 @@ html {
   transition: boxshadow .5s;
 }
 
-.project:hover {
+.project:hover{
   box-shadow: 1rem 1rem 1rem #777;
 }
 
-.project-text {
+.project-text{
   text-align: center;
   letter-spacing: 0.1rem;
   position: absolute;
@@ -273,26 +273,26 @@ html {
 }
 
 
-.project:hover .project-text {
+.project:hover .project-text{
   top: 5rem;
   transition: top .3s .3s;
 
 }
 
-.project-name {
+.project-name{
   font-size: 3rem;
   font-weight: 700;
   color: #333;
   text-transform: capitalize;
 }
 
-.project-technologies {
+.project-technologies{
   font-size: 1.8rem;
   color: #e41c6f;
 
 }
 
-.project-img {
+.project-img{
 
   width: 40rem;
   transition: opacity 0.3s;
